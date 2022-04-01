@@ -3,7 +3,7 @@
 
 import matplotlib.pyplot as plt
 
-top_left = (299, 319)
+top_left = (299, 318)
 ui_scale = 10
 
 def generate_static_webpage(filename: str):
