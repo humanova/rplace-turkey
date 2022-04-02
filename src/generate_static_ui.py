@@ -81,6 +81,10 @@ if __name__ == '__main__':
                             output_filename="ataturk.html",
                             top_left=(800, 0))
 
-    generate_static_webpage(image_path="../img/turkey-and-ataturk.png",
+    generate_static_webpage(image_path="../img/turkish_flag.png",
                             output_filename="index.html",
-                            top_left=(299,318))
+                            top_left=(299,343))
+
+    #generate_static_webpage(image_path="../img/turkey-and-ataturk.png",
+    #                        output_filename="index.html",
+    #                        top_left=(299,318))
