@@ -85,6 +85,10 @@ if __name__ == '__main__':
                             output_filename="index.html",
                             top_left=(299,343))
 
+    generate_static_webpage(image_path="../img/turkish_flag2.png",
+                        output_filename="bayrak2.html",
+                        top_left=(299,343))
+
     generate_static_webpage(image_path="../img/chad.png",
                         output_filename="zade.html",
                         top_left=(480,414))
