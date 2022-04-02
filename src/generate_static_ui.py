@@ -81,11 +81,11 @@ if __name__ == '__main__':
                             output_filename="ataturk.html",
                             top_left=(1000, 0))
 
-    generate_static_webpage(image_path="../img/turkish_flag.png",
+    generate_static_webpage(image_path="../img/turkish_flag2_without_cat.png",
                             output_filename="index.html",
                             top_left=(299,343))
 
-    generate_static_webpage(image_path="../img/turkish_flag2.png",
+    generate_static_webpage(image_path="../img/turkish_flag2_without_cat.png",
                         output_filename="bayrak2.html",
                         top_left=(299,343))
 
