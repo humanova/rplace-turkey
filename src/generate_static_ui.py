@@ -93,6 +93,15 @@ if __name__ == '__main__':
                         output_filename="zade.html",
                         top_left=(480,414))
 
+    generate_static_webpage(image_path="../img/kgbtr.png",
+                    output_filename="kgbtr.html",
+                    top_left=(1778,2))
+
+    generate_static_webpage(image_path="../img/efesler.png",
+                output_filename="efesler.html",
+                top_left=(1817,685))
+                        
+
     #generate_static_webpage(image_path="../img/turkey-and-ataturk.png",
     #                        output_filename="index.html",
     #                        top_left=(299,318))
