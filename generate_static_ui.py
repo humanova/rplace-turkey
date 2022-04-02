@@ -13,7 +13,7 @@ def generate_static_webpage(filename: str):
         generated += f"<div class='row' style='top: {row * ui_scale}px;'>"
         for square in range(len(p[row])):
             color = f"rgba({p[row][square][0]*255},{p[row][square][1]*255},{p[row][square][2]*255},{p[row][square][3]})"
-            generated += f"<a style='background-color: {color};left: {square * ui_scale}px;' class='square' href='https://new.reddit.com/r/place/?cx={top_left[0] + square}&cy={top_left[1] + row}&px=20'></a>\n"
+            generated += f"<a style='background-color: {color};left: {square * ui_scale}px;' class='square' href='https://new.reddit.com/r/place/?cx={top_left[0] + square}&cy={top_left[1] + row}&px=20' onMouseOver='onTileHovered({square}, {row })'></a>\n"
         generated += "</div>"
 
     website_template = f"""
@@ -36,13 +36,38 @@ def generate_static_webpage(filename: str):
         position: absolute;
     }}
     .square:hover {{
-        border-style: solid;
-        border-radius: 0;
-        border-thickness: 2px;
-        border-color: gray;
+        z-index: 1;
+        border: solid 1px black;
+        outline: solid 1px white;
+    }}
+    .info{{
+        color: black;
+        position: absolute;
+        background-color: white;
+        font-family: monospace;
+        z-index: 2;
+        border-radius: 8px;
+        height: 20px;
+        font-size: 16px;
+        width: 100px;
+        pointer-events: none;
+        text-align: center;
+        border: solid 1px black;
+        outline: solid 1px white;
     }}
     </style>
+    
+    <script>
+        function onTileHovered(x, y) {{
+        const pos = document.getElementById("pos");
+        pos.innerText = "[" + (x + { top_left[0] }) + ", " + (y + {top_left[1]}) + "]";
+        pos.style.left = x * {ui_scale} + 16 + "px";
+        pos.style.top = y * {ui_scale} - 6 + "px";
+      }}
+    </script>
+
     <body>
+    <div id="pos" class="info">[999,999]</div> 
     {generated}
     </body>
     </html>
