@@ -3,7 +3,7 @@
 
 import matplotlib.pyplot as plt
 
-ui_scale = 10
+ui_scale = 8
 
 def generate_static_webpage(image_path: str, output_filename:str, top_left:tuple):
     generated = ""
