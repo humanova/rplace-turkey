@@ -77,9 +77,9 @@ def generate_static_webpage(image_path: str, output_filename:str, top_left:tuple
 
 
 if __name__ == '__main__':
-    generate_static_webpage(image_path="../img/topright_ataturk.png",
+    generate_static_webpage(image_path="../img/topright_ataturk2.png",
                             output_filename="ataturk.html",
-                            top_left=(800, 0))
+                            top_left=(1000, 0))
 
     generate_static_webpage(image_path="../img/turkish_flag.png",
                             output_filename="index.html",
