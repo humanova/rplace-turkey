@@ -12,7 +12,8 @@ def generate_static_webpage(image_path: str, output_filename:str, top_left:tuple
         generated += f"<div class='row' style='top: {row * ui_scale}px;'>"
         for square in range(len(p[row])):
             color = f"rgba({p[row][square][0]*255},{p[row][square][1]*255},{p[row][square][2]*255},{p[row][square][3]})"
-            generated += f"<a style='background-color: {color};left: {square * ui_scale}px;' class='square' href='https://new.reddit.com/r/place/?cx={top_left[0] + square}&cy={top_left[1] + row}&px=20' onMouseOver='onTileHovered({square}, {row })'></a>\n"
+            hide_transparent_tile_css = "pointer-events: none" if p[row][square][3] == 0 else ""
+            generated += f"<a style='background-color: {color};left: {square * ui_scale}px; {hide_transparent_tile_css}' class='square' href='https://new.reddit.com/r/place/?cx={top_left[0] + square}&cy={top_left[1] + row}&px=20' onMouseOver='onTileHovered({square}, {row })'></a>\n"
         generated += "</div>"
 
     website_template = f"""
@@ -100,11 +101,10 @@ if __name__ == '__main__':
     generate_static_webpage(image_path="../img/kgbtr.png",
                     output_filename="kgbtr.html",
                     top_left=(1778,2))
-
-    generate_static_webpage(image_path="../img/efesler.png",
-                output_filename="efesler.html",
-                top_left=(1817,685))
-                        
+    
+    generate_static_webpage(image_path="../img/kgbtr2.png",
+                output_filename="kgbtr2.html",
+                top_left=(1072, 120))
 
     #generate_static_webpage(image_path="../img/turkey-and-ataturk.png",
     #                        output_filename="index.html",
