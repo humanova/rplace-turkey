@@ -82,29 +82,33 @@ if __name__ == '__main__':
                             output_filename="ataturk.html",
                             top_left=(1000, 0))
 
-    generate_static_webpage(image_path="../img/turkish_flag3_with_text.png",
-                            output_filename="index.html",
-                            top_left=(299,343))
+    generate_static_webpage(image_path="../img/ramizdayi.png",
+        output_filename="ramizdayi.html",
+        top_left=(881, 1745))
 
-    generate_static_webpage(image_path="../img/turkish_flag3_with_text.png",
-                        output_filename="bayrak2.html",
-                        top_left=(299,343))
+    #generate_static_webpage(image_path="../img/turkish_flag3_with_text.png",
+    #                        output_filename="index.html",
+    #                        top_left=(299,343))
 
-    generate_static_webpage(image_path="../img/chad.png",
-                        output_filename="zade.html",
-                        top_left=(480,414))
+    #generate_static_webpage(image_path="../img/turkish_flag3_with_text.png",
+    #                    output_filename="bayrak2.html",
+    #                    top_left=(299,343))
 
-    generate_static_webpage(image_path="../img/2balkan4u.png",
-            output_filename="2b4u.html",
-            top_left=(1918,270))
+    #generate_static_webpage(image_path="../img/chad.png",
+    #                    output_filename="zade.html",
+    #                    top_left=(480,414))
 
-    generate_static_webpage(image_path="../img/kgbtr.png",
-                    output_filename="kgbtr.html",
-                    top_left=(1778,2))
+    #generate_static_webpage(image_path="../img/2balkan4u.png",
+    #        output_filename="2b4u.html",
+    #        top_left=(1918,270))
+
+    #generate_static_webpage(image_path="../img/kgbtr.png",
+    #                output_filename="kgbtr.html",
+    #                top_left=(1778,2))
     
-    generate_static_webpage(image_path="../img/kgbtr2.png",
-                output_filename="kgbtr2.html",
-                top_left=(1072, 120))
+    #generate_static_webpage(image_path="../img/kgbtr2.png",
+    #            output_filename="kgbtr2.html",
+    #            top_left=(1072, 120))
 
     generate_static_webpage(image_path="../img/maoy.png",
             output_filename="maoy.html",
