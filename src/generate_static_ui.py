@@ -106,6 +106,10 @@ if __name__ == '__main__':
                 output_filename="kgbtr2.html",
                 top_left=(1072, 120))
 
+    generate_static_webpage(image_path="../img/maoy.png",
+            output_filename="maoy.html",
+            top_left=(1219,60))
+
     #generate_static_webpage(image_path="../img/turkey-and-ataturk.png",
     #                        output_filename="index.html",
     #                        top_left=(299,318))
