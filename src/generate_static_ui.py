@@ -82,9 +82,14 @@ if __name__ == '__main__':
                             output_filename="ataturk.html",
                             top_left=(1000, 0))
 
-    generate_static_webpage(image_path="../img/ramizdayi.png",
-        output_filename="ramizdayi.html",
-        top_left=(881, 1745))
+    generate_static_webpage(image_path="../img/shovel.png",
+                output_filename="shovel.html",
+                top_left=(317,1902))
+
+
+    #generate_static_webpage(image_path="../img/ramizdayi.png",
+    #    output_filename="ramizdayi.html",
+    #    top_left=(881, 1745))
 
     #generate_static_webpage(image_path="../img/turkish_flag3_with_text.png",
     #                        output_filename="index.html",
@@ -98,21 +103,21 @@ if __name__ == '__main__':
     #                    output_filename="zade.html",
     #                    top_left=(480,414))
 
-    generate_static_webpage(image_path="../img/2balkan4u.png",
-            output_filename="2b4u.html",
-            top_left=(1900,1583))
+    #generate_static_webpage(image_path="../img/2balkan4u.png",
+    #        output_filename="2b4u.html",
+    #        top_left=(1900,1583))
 
-    generate_static_webpage(image_path="../img/kgbtr.png",
-                    output_filename="kgbtr.html",
-                    top_left=(736,1440))
+    #generate_static_webpage(image_path="../img/kgbtr.png",
+    #                output_filename="kgbtr.html",
+    #                top_left=(736,1440))
     
     #generate_static_webpage(image_path="../img/kgbtr2.png",
     #            output_filename="kgbtr2.html",
     #            top_left=(1072, 120))
 
-    generate_static_webpage(image_path="../img/maoy.png",
-            output_filename="maoy.html",
-            top_left=(1219,60))
+    #generate_static_webpage(image_path="../img/maoy.png",
+    #        output_filename="maoy.html",
+    #        top_left=(1219,60))
 
     #generate_static_webpage(image_path="../img/turkey-and-ataturk.png",
     #                        output_filename="index.html",
