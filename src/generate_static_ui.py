@@ -84,7 +84,7 @@ if __name__ == '__main__':
 
     generate_static_webpage(image_path="../img/turkishcat.png",
             output_filename="turkishcat.html",
-            top_left=(1575,1444))
+            top_left=(1545,1419))
 
     #generate_static_webpage(image_path="../img/elraenn_bayrak.png",
     #           output_filename="elraenn_bayrak.html",
