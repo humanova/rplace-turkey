@@ -98,13 +98,13 @@ if __name__ == '__main__':
     #                    output_filename="zade.html",
     #                    top_left=(480,414))
 
-    #generate_static_webpage(image_path="../img/2balkan4u.png",
-    #        output_filename="2b4u.html",
-    #        top_left=(1918,270))
+    generate_static_webpage(image_path="../img/2balkan4u.png",
+            output_filename="2b4u.html",
+            top_left=(1900,1583))
 
-    #generate_static_webpage(image_path="../img/kgbtr.png",
-    #                output_filename="kgbtr.html",
-    #                top_left=(1778,2))
+    generate_static_webpage(image_path="../img/kgbtr.png",
+                    output_filename="kgbtr.html",
+                    top_left=(736,1440))
     
     #generate_static_webpage(image_path="../img/kgbtr2.png",
     #            output_filename="kgbtr2.html",
