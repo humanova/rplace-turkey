@@ -15,6 +15,6 @@ I made slight changes in the original script for my comfort.
 - [Kitsuinox](https://www.reddit.com/user/Kitsuinox)
 - [Furkan](https://github.com/yakuthun)
 - [Göktuğ](https://www.reddit.com/user/goktug_exe)
-- Turug
+- [Turug](https://github.com/tyrone718)
 
 ### Yayıncılarla olan iletişimimizde bize yardımcı olan Cordiseps ve Valaska'ya ayrıca teşekkür ederim. 
