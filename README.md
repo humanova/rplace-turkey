@@ -1,6 +1,6 @@
 # rplace-turkey
 
-This repo is heavily based on works of [tux community](https://www.reddit.com/r/placetux/) <sub>([here](https://gist.github.com/humanova/3979a4068340444ac76503a56211856a)'s the deleted script of [ryleu](github.com/ryleu)). </sub> 
+This repo is heavily based on works of [tux community](https://www.reddit.com/r/placetux/) <sub>([here](https://gist.github.com/humanova/3979a4068340444ac76503a56211856a)'s the deleted script of [ryleu](https://github.com/ryleu)). </sub> 
 
 I made slight changes in the original script for my comfort. 
 [Sercan](https://github.com/srcnalt) added the tile coordinates tooltip.
