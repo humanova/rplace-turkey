@@ -82,9 +82,9 @@ if __name__ == '__main__':
                             output_filename="bayrak2023.html",
                             top_left=(-368, 290))
 
-    generate_static_webpage(image_path="../img/turkishcat.png",
-            output_filename="turkishcat.html",
-            top_left=(1545,1419))
+    generate_static_webpage(image_path="../img/xqc.png",
+            output_filename="xqc.html",
+            top_left=(425,125))
 
     #generate_static_webpage(image_path="../img/elraenn_bayrak.png",
     #           output_filename="elraenn_bayrak.html",
