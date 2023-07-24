@@ -78,7 +78,7 @@ def generate_static_webpage(image_path: str, output_filename:str, top_left:tuple
 
 
 if __name__ == '__main__':
-    generate_static_webpage(image_path="../img/bayrak2023.png",
+    generate_static_webpage(image_path="../img/bayrak2023_2.png",
                             output_filename="bayrak2023.html",
                             top_left=(-368, 290))
 
