@@ -8,6 +8,10 @@ I made slight changes in the original script for my comfort.
 ---
 ### Emeği geçen çizer ve yazılımcı arkadaşlara teşekkür ediyorum : 
 
+# 2023
+- [Emirhan](https://www.reddit.com/user/emrhnugrl)
+- [Yagmur](https://www.reddit.com/user/yamur_washere)
+# 2022
 - [Ege](https://www.reddit.com/user/egeesin)
 - [Emirhan](https://www.reddit.com/user/emrhnugrl)
 - [Berkay](https://github.com/moon-chain)
